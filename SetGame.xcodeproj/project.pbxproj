@@ -12,6 +12,8 @@
 		9CA722D5212A1C5E00AA03E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CA722D3212A1C5E00AA03E9 /* Main.storyboard */; };
 		9CA722D7212A1C6000AA03E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CA722D6212A1C6000AA03E9 /* Assets.xcassets */; };
 		9CA722DA212A1C6000AA03E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CA722D8212A1C6000AA03E9 /* LaunchScreen.storyboard */; };
+		9CA722E3212A1CD200AA03E9 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA722E2212A1CD200AA03E9 /* Card.swift */; };
+		9CA722E5212A1D2F00AA03E9 /* SetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA722E4212A1D2F00AA03E9 /* SetModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		9CA722D6212A1C6000AA03E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CA722D9212A1C6000AA03E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9CA722DB212A1C6000AA03E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CA722E2212A1CD200AA03E9 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		9CA722E4212A1D2F00AA03E9 /* SetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +58,24 @@
 		9CA722CE212A1C5E00AA03E9 /* SetGame */ = {
 			isa = PBXGroup;
 			children = (
-				9CA722CF212A1C5E00AA03E9 /* AppDelegate.swift */,
+				9CA722E1212A1C7D00AA03E9 /* Supporting Files */,
 				9CA722D1212A1C5E00AA03E9 /* ViewController.swift */,
 				9CA722D3212A1C5E00AA03E9 /* Main.storyboard */,
-				9CA722D6212A1C6000AA03E9 /* Assets.xcassets */,
-				9CA722D8212A1C6000AA03E9 /* LaunchScreen.storyboard */,
 				9CA722DB212A1C6000AA03E9 /* Info.plist */,
+				9CA722E2212A1CD200AA03E9 /* Card.swift */,
+				9CA722E4212A1D2F00AA03E9 /* SetModel.swift */,
 			);
 			path = SetGame;
+			sourceTree = "<group>";
+		};
+		9CA722E1212A1C7D00AA03E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9CA722CF212A1C5E00AA03E9 /* AppDelegate.swift */,
+				9CA722D6212A1C6000AA03E9 /* Assets.xcassets */,
+				9CA722D8212A1C6000AA03E9 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +150,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CA722D2212A1C5E00AA03E9 /* ViewController.swift in Sources */,
+				9CA722E3212A1CD200AA03E9 /* Card.swift in Sources */,
+				9CA722E5212A1D2F00AA03E9 /* SetModel.swift in Sources */,
 				9CA722D0212A1C5E00AA03E9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
