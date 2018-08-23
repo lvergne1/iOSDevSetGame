@@ -11,13 +11,20 @@ struct SetModel{
     
     var cards = [Card]()
     
-    func areCardsASet(){
-        
-    }
     init(){
         for _ in 1...81{
             let card = Card()
             cards += [card]
+        }
+        shuffleTheCards()
+    }
+    
+    mutating func shuffleTheCards(){
+        for index in 0..<cards.count{
+            let swapIndex = Int(arc4random_uniform(UInt32(cards.count)))
+            let copyOfCardToBeSwapped = cards[index]
+            cards[index] = cards[swapIndex]
+            cards[swapIndex] = copyOfCardToBeSwapped
         }
     }
 }

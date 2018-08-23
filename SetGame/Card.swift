@@ -8,34 +8,28 @@
 
 import Foundation
 
-struct Card{
-    var number: Int
-    var shape: Int
-    var color: Int
-    var shade: Int
+struct Card
+{
+    private(set) var identifier : (number: Int, shape: Int, color: Int, shade: Int)
+    private static var identifierFactory = (numberFactory: 1, shapeFactory: 1, colorFactory: 1, shadeFactory: 1)
     
-    static var numberFactory = 1
-    static var shapeFactory = 1
-    static var colorFactory = 1
-    static var shadeFactory = 1
-    
-    static func makeUniqueIdentifier() -> (number: Int,shape: Int, color: Int, shade: Int){
-        let identifier = (number: numberFactory, shape: shapeFactory, color: colorFactory, shade: shadeFactory)
+    private static func makeUniqueIdentifier() -> (number: Int,shape: Int, color: Int, shade: Int){
+        let identifier = (number: identifierFactory.numberFactory, shape: identifierFactory.shapeFactory, color: identifierFactory.colorFactory, shade: identifierFactory.shadeFactory)
         
-        if numberFactory < 3{
-            numberFactory += 1
+        if identifierFactory.numberFactory < 3{
+            identifierFactory.numberFactory += 1
         } else {
-            numberFactory = 1
-            if shapeFactory < 3 {
-                shapeFactory += 1
+            identifierFactory.numberFactory = 1
+            if identifierFactory.shapeFactory < 3 {
+                identifierFactory.shapeFactory += 1
             } else {
-                shapeFactory = 1
-                if colorFactory < 3{
-                    colorFactory += 1
+                identifierFactory.shapeFactory = 1
+                if identifierFactory.colorFactory < 3{
+                    identifierFactory.colorFactory += 1
                 }
                 else {
-                    colorFactory = 1
-                    shadeFactory += 1
+                    identifierFactory.colorFactory = 1
+                    identifierFactory.shadeFactory += 1
                 }
             }
         }
@@ -43,10 +37,6 @@ struct Card{
     }
     
     init() {
-        let identifier = Card.makeUniqueIdentifier()
-        self.number = identifier.number
-        self.shape = identifier.shape
-        self.color = identifier.color
-        self.shade = identifier.shade
+        self.identifier = Card.makeUniqueIdentifier()
     }
 }

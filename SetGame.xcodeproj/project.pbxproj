@@ -60,10 +60,10 @@
 			children = (
 				9CA722E1212A1C7D00AA03E9 /* Supporting Files */,
 				9CA722D1212A1C5E00AA03E9 /* ViewController.swift */,
+				9CA722E4212A1D2F00AA03E9 /* SetModel.swift */,
+				9CA722E2212A1CD200AA03E9 /* Card.swift */,
 				9CA722D3212A1C5E00AA03E9 /* Main.storyboard */,
 				9CA722DB212A1C6000AA03E9 /* Info.plist */,
-				9CA722E2212A1CD200AA03E9 /* Card.swift */,
-				9CA722E4212A1D2F00AA03E9 /* SetModel.swift */,
 			);
 			path = SetGame;
 			sourceTree = "<group>";
