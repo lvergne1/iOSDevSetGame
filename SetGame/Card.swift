@@ -8,8 +8,18 @@
 
 import Foundation
 
-struct Card
+struct Card: Equatable
 {
+    static func == (lhs: Card, rhs: Card) -> Bool {
+        return (lhs.identifierString == rhs.identifierString)
+    }
+    
+    var identifierString: String{
+        get {
+            return "\(self.identifier.number)" + "\(self.identifier.shape)" + "\(self.identifier.color)" + "\(self.identifier.shade)"
+        }
+    }
+    
     private(set) var identifier : (number: Int, shape: Int, color: Int, shade: Int)
     private static var identifierFactory = (numberFactory: 1, shapeFactory: 1, colorFactory: 1, shadeFactory: 1)
     

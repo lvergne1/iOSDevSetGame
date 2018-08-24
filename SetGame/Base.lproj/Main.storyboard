@@ -25,7 +25,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <action selector="buildADeck:" destination="BYZ-38-t0r" eventType="touchUpInside" id="l9b-WC-xaB"/>
+                                    <action selector="cardTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="l9b-WC-xaB"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="eyR-xc-SZs">
@@ -35,7 +35,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <action selector="buildADeck:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Hgw-9y-8oq"/>
+                                    <action selector="cardTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Hgw-9y-8oq"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="vx3-Yf-UDK">
@@ -45,7 +45,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <action selector="buildADeck:" destination="BYZ-38-t0r" eventType="touchUpInside" id="z59-Uw-Ykc"/>
+                                    <action selector="cardTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="z59-Uw-Ykc"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="5Y4-pa-ldw">
@@ -55,7 +55,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <action selector="buildADeck:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fDQ-1j-jnK"/>
+                                    <action selector="cardTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fDQ-1j-jnK"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="L1h-TJ-rSK">
@@ -65,7 +65,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <action selector="buildADeck:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Rxx-oc-bee"/>
+                                    <action selector="cardTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Rxx-oc-bee"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="HXV-ji-xYN">
@@ -75,7 +75,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <action selector="buildADeck:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aa3-Pn-pIX"/>
+                                    <action selector="cardTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aa3-Pn-pIX"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Edw-cJ-Wq9">
@@ -85,7 +85,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <action selector="buildADeck:" destination="BYZ-38-t0r" eventType="touchUpInside" id="b44-gl-bXx"/>
+                                    <action selector="cardTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="b44-gl-bXx"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="r7W-Oc-7hO">
@@ -95,7 +95,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <action selector="buildADeck:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NJl-e7-jQL"/>
+                                    <action selector="cardTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NJl-e7-jQL"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="4RJ-30-Fod">
@@ -105,7 +105,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <action selector="buildADeck:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gWf-A1-kCQ"/>
+                                    <action selector="cardTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gWf-A1-kCQ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="L3Y-c8-Dg1">
@@ -115,7 +115,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <action selector="buildADeck:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CxU-9B-WYA"/>
+                                    <action selector="cardTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CxU-9B-WYA"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Mdm-ir-PeP">
@@ -125,7 +125,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <action selector="buildADeck:" destination="BYZ-38-t0r" eventType="touchUpInside" id="878-qu-bye"/>
+                                    <action selector="cardTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="878-qu-bye"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="h2h-hs-TbA">
@@ -135,7 +135,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <action selector="buildADeck:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HtB-ds-lE1"/>
+                                    <action selector="cardTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HtB-ds-lE1"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="1yu-Sa-QlU">
@@ -145,7 +145,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <action selector="buildADeck:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ocG-Fw-wYz"/>
+                                    <action selector="cardTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ocG-Fw-wYz"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="sb3-z0-r3w">
@@ -155,7 +155,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <action selector="buildADeck:" destination="BYZ-38-t0r" eventType="touchUpInside" id="B3t-LP-Aae"/>
+                                    <action selector="cardTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="B3t-LP-Aae"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="mth-b3-Wzy">
@@ -165,7 +165,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <action selector="buildADeck:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SFO-Vy-PV6"/>
+                                    <action selector="cardTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SFO-Vy-PV6"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="odO-Pr-Oxq">
@@ -175,7 +175,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <action selector="buildADeck:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XUn-gL-aQo"/>
+                                    <action selector="cardTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XUn-gL-aQo"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Tgf-GG-mKP">
@@ -185,7 +185,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <action selector="buildADeck:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bb7-GW-C4H"/>
+                                    <action selector="cardTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bb7-GW-C4H"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="c8b-xH-XJm">
@@ -195,7 +195,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <action selector="buildADeck:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dxk-Zb-0ZE"/>
+                                    <action selector="cardTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dxk-Zb-0ZE"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="ILr-w4-imW">
@@ -205,7 +205,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <action selector="buildADeck:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tif-GA-csS"/>
+                                    <action selector="cardTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tif-GA-csS"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="jcP-dS-6Jt">
@@ -215,7 +215,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <action selector="buildADeck:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dFQ-5c-jYh"/>
+                                    <action selector="cardTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dFQ-5c-jYh"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="TKW-Cq-2hT">
@@ -225,7 +225,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <action selector="buildADeck:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CED-ar-XS9"/>
+                                    <action selector="cardTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CED-ar-XS9"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="hUi-mF-dT1">
@@ -235,7 +235,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <action selector="buildADeck:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hAY-ez-tuy"/>
+                                    <action selector="cardTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hAY-ez-tuy"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="zn4-5I-pdr">
@@ -245,7 +245,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <action selector="buildADeck:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bcI-34-Qlh"/>
+                                    <action selector="cardTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bcI-34-Qlh"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="evS-dn-5bL">
@@ -255,7 +255,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <action selector="buildADeck:" destination="BYZ-38-t0r" eventType="touchUpInside" id="30I-7Y-qOU"/>
+                                    <action selector="cardTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="30I-7Y-qOU"/>
                                 </connections>
                             </button>
                         </subviews>
